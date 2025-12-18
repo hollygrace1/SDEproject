@@ -35,7 +35,6 @@ expected_rainy_days = 1/1000 * sum(rainy_days_per_path);
 disp(['Estimated number of rainy days next week: ', num2str(expected_rainy_days)]);
 
 
-
 % Plot figure 
 
 figure;
