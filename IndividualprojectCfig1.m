@@ -1,4 +1,3 @@
-
 % Parameters
 
 K = 0.5;    
@@ -35,8 +34,7 @@ for j = 1:N_paths
 end
 
 
-
-% Figure 
+% Plot figure 
 
 colours = [0 0.4470 0.7410;   
            0.4940 0.1840 0.5560;   
@@ -62,6 +60,3 @@ ax.FontSize = 13;
 ax.TickLabelInterpreter = 'latex';
 grid on;
 hold off;
-
-
-
