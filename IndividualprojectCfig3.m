@@ -2,7 +2,8 @@
 
 K = 0.5;               
 sigma = 0.3;           
-A = 1.85; B = 1.06;          
+A = 1.85; 
+B = 1.06;          
 dt = 1;                
 N = 1000;              
 forecast_days = 7;     
@@ -31,8 +32,6 @@ end
 rainy_day_threshold = 2.5;
 rainy_days_per_path = sum(R_next(:,2:end) > rainy_day_threshold,2);
 expected_rainy_days = 1/1000 * sum(rainy_days_per_path);
-
-disp(['Estimated number of rainy days next week: ', num2str(expected_rainy_days)]);
 
 
 % Plot figure 
